@@ -9,19 +9,41 @@
 
         <!--icons-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <!--font 'Cabin'-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
     </head>
+
     <body>
         <!--nav-->
         <nav>
-            <!--logo-->
-            <a href="index.html"><h4>H</h4></a>
             <!--nav items-->
             <div class="container nav-container">
-                <ul class="nav-list">
-                    <li><a href="print.html">Print</a></li>
-                    <li><a href="digital.html">Digital</a></li>
-                    <li><a href="sketchbook.html">Sketchbook</a></li>
-                </ul>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <!--logo-->
+                                <!--<a href="index.html"><h4>H</h4></a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md text-center">
+                                <a class="nav-btn" href="print.html">Print</a>
+                            </div>
+                            <div class="col-md text-center">
+                                <a class="nav-btn" href="digital.html">Digital</a>
+                            </div>
+                            <div class="col-md text-center">
+                                <a class="nav-btn" href="sketchbook.html">Sketchbook</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
                 <button id="menu-btn"><span class="material-symbols-outlined">menu</span></button>
                 <button id="menu-btn"><span class="material-symbols-outlined">close</span></button>
             </div>

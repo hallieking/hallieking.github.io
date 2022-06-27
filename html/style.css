@@ -1,0 +1,27 @@
+:root{
+    --color-primary: #CEDBFF;
+    --color-secondary: #333333;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+    color: var(--color-secondary);
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-weight: bold;
+}
+
+.nav-btn:hover{
+    color: var(--color-primary);
+}
+
+button{
+    border: 0;
+    outline: 0;
+    background-color: white;
+    display:none;
+}
+
