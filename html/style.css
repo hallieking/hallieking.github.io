@@ -23,7 +23,7 @@ a{
     font-size: 16pt;
     transition-property: all;
     transition-delay: 100ms;
-    transition-duration: 50ms;
+    transition-duration: 100ms;
     transition-timing-function: ease-in;
 }
 
@@ -115,6 +115,7 @@ button{
 .body-paragraph{
     animation: opacityTransition 4s;
     transition-timing-function: ease-in;
+    font-size: 13pt;
 }
 
 .view-portfolio{
@@ -126,6 +127,10 @@ button{
     padding-top: 5%;
     padding-bottom: 5%;
     animation: opacityTransition 5s;
+    transition-timing-function: ease-in;
+    transition-property: all;
+    transition-delay: 100ms;
+    transition-duration: 100ms;
     transition-timing-function: ease-in;
    
 }
@@ -146,8 +151,6 @@ button{
     height:0;
     padding-bottom: 90%;
     position:relative;
-    animation: opacityTransition 1s;
-    transition-timing-function: ease-in;
 }
 
 .digital{

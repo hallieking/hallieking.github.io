@@ -18,12 +18,26 @@ a{
     color: var(--color-primary);
 }
 
+.nav{
+    padding-top: 2%;
+}
+
+.nav-btn{
+    font-size: 16pt;
+    transition-property: all;
+    transition-delay: 100ms;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+}
+
 .nav-btn:hover{
     color: var(--color-primary);
 }
 
-.logo:hover{
-    color: var(--color-primary);
+.logo img{
+    width:30px;
+    height: auto;
+    padding-top: 10%;
 }
 
 button{
