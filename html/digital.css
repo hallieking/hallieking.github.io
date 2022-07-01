@@ -169,3 +169,7 @@ button{
     transition-delay: 100ms;
     transition-timing-function: ease-in;
 }
+
+.bottom{
+    padding-bottom: 10%;
+}

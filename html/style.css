@@ -146,27 +146,30 @@ button{
 }
 
 .print{
-    background-image: url("images/square_print.png");
+    background-image: url("images/btn_game.png");
     background-size: cover;
     height:0;
     padding-bottom: 90%;
     position:relative;
+    color: white;
 }
 
 .digital{
-    background-image: url("images/square_digital.png");
+    background-image: url("images/btn_paintla.png");
     background-size: cover;
     height:0;
     padding-bottom: 90%;
     position:relative;
+    color: white;
 }
 
 .sketchbook{
-    background-image: url("images/square_sketchbook.png");
+    background-image: url("images/btn_risograph.png");
     background-size: cover;
     height:0;
     padding-bottom: 90%;
     position:relative;
+    color: white;
 }
 
 .square:hover{

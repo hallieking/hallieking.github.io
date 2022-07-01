@@ -70,11 +70,11 @@ button{
 /** project buttons **/
 
 .project-square{
-    background-color: #CEDBFF;
     height:0;
     padding-bottom: 90%;
     position:relative;
     margin-top: 5%;
+    color:white;
 }
 
 .project-text{
@@ -84,6 +84,49 @@ button{
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Merriweather Sans', sans-serif; 
-    font-size: 20pt;
+    font-size: 25pt;
     font-weight:800;
+}
+
+.project-square:hover{
+   color:transparent;
+}
+
+#gouache-square{
+    background-image: url(images/btn_gouache.png);
+    background-size: cover;
+}
+
+#gouache-square:hover{
+    background-image: url(images/btn_gouache_hover.png);
+    background-size: cover;
+    transition-duration: 100ms;
+    transition-delay: 100ms;
+    transition-timing-function: ease-in;
+}
+
+#cyanotype-square{
+    background-image: url(images/btn_cyanotype.png);
+    background-size: cover;
+}
+
+#cyanotype-square:hover{
+    background-image: url(images/btn_cyanotype_hover.png);
+    background-size: cover;
+    transition-duration: 100ms;
+    transition-delay: 100ms;
+    transition-timing-function: ease-in;
+}
+
+#risograph-square{
+    background-image: url(images/btn_risograph.png);
+    background-size: cover;
+}
+
+#risograph-square:hover{
+    background-image: url(images/btn_risograph_hover.png);
+    background-size: cover;
+    transition-duration: 100ms;
+    transition-delay: 100ms;
+    transition-timing-function: ease-in;
 }
