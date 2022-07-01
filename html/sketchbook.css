@@ -18,6 +18,15 @@ a{
     color: var(--color-primary);
 }
 
+@keyframes opacityTransition{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
 /** nav **/
 .nav{
     padding-top: 2%;
@@ -59,12 +68,16 @@ button{
     font-family: 'Merriweather Sans', sans-serif;
     font-weight:800;
     font-size: 35pt;
+    animation: opacityTransition 1s;
+    animation-timing-function: ease-in;
 }
 
 .subtitle{
     margin-top: 1.5%;
     font-weight: 500;
     margin-bottom: 5%;
+    animation: opacityTransition 1s;
+    animation-timing-function: ease-in;
 }
 
 /** project buttons **/
@@ -75,6 +88,8 @@ button{
     position:relative;
     margin-top: 5%;
     color:white;
+    animation: opacityTransition 1s;
+    animation-timing-function: ease-in;
 }
 
 .project-text{

@@ -18,11 +18,22 @@ a{
     color: var(--color-primary);
 }
 
-.nav{
-    margin-top: 2%;
+
+
+@keyframes opacityTransition{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 /** nav **/
+
+.nav{
+    margin-top: 2%;
+}
 
 .nav-btn{
     font-size: 16pt;
@@ -60,12 +71,16 @@ button{
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 35pt;
     font-weight:800;
+    animation: opacityTransition 1s;
+    animation-timing-function: ease-in;
 }
 
 .subtitle{
     margin-top: 1.5%;
     font-weight: 500;
     margin-bottom: 5%;
+    animation: opacityTransition 1s;
+    animation-timing-function: ease-in;
 }
 
 /** project buttons **/
@@ -76,6 +91,8 @@ button{
     position:relative;
     margin-top: 5%;
     color:white;
+    animation: opacityTransition 1s;
+    animation-timing-function: ease-in;
 }
 
 .project-text{
