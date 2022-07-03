@@ -18,6 +18,10 @@ a{
     color: var(--color-primary);
 }
 
+.container{
+    padding-top: 1%;
+}
+
 @keyframes opacityTransition{
     from{
         opacity: 0;
@@ -61,6 +65,12 @@ button{
 .square-bullet{
     background-color: var(--color-primary);
     color:var(--color-primary);
+}
+
+@media (max-width: 768px){
+    .square-bullet{
+        display:none;
+    }
 }
 
 .title{
