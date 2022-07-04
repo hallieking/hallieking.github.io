@@ -84,6 +84,12 @@ button{
     transition-timing-function: ease-in;
 }
 
+@media (max-width: 768px){
+    #name{
+        text-align: center;
+    }
+}
+
 @media (max-width: 1200px){
     #name{
         font-size:60pt;

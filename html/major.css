@@ -85,10 +85,56 @@ button{
     animation-timing-function: ease-in;
 }
 
+@media (max-width: 768px){
+    .title{
+        text-align: center;
+    }
+}
+
 .subtitle{
     margin-top: 1.5%;
     font-weight: 500;
     margin-bottom: 5%;
     animation: opacityTransition 1s;
     animation-timing-function: ease-in;
+}
+
+/** page content **/
+
+img{
+    width: 100%;
+}
+
+.text{
+    padding-top: 20%;
+    padding-bottom: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+@media (max-width: 768px){
+    .text p{
+        position: relative;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .text{
+        padding-top: 5%;
+    }
+}
+
+@media (max-width: 992px){
+    .text p{
+        font-size: 9pt;
+    }
+}
+
+.row-2{
+    margin-top: 5%;
+}
+
+.row-3{
+    margin-top: 2%;
+    margin-bottom: 5%;
 }

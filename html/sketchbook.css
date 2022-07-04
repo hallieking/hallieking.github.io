@@ -82,6 +82,12 @@ button{
     animation-timing-function: ease-in;
 }
 
+@media (max-width: 768px){
+    .title{
+        text-align: center;
+    }
+}
+
 .subtitle{
     margin-top: 1.5%;
     font-weight: 500;
