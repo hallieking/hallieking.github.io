@@ -138,3 +138,9 @@ img{
     margin-top: 2%;
     margin-bottom: 5%;
 }
+
+@media (max-width: 768px){
+    .row-3 img{
+        padding-top: 5%;
+    }
+}

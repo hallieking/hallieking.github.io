@@ -120,7 +120,7 @@ img{
     }
 
     .text{
-        padding-top: 5%;
+        padding-top: 15%;
     }
 }
 
@@ -137,4 +137,13 @@ img{
 .row-3{
     margin-top: 10%;
     margin-bottom: 5%;
+}
+
+@media (max-width: 768px){
+    .row-1 img{
+        padding-top: 5%;
+    }
+    .row-3 img{
+        padding-top: 5%;
+    }
 }
