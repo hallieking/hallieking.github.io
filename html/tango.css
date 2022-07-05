@@ -98,3 +98,46 @@ button{
     animation: opacityTransition 1s;
     animation-timing-function: ease-in;
 }
+
+/** page content **/
+
+img{
+    width: 100%;
+}
+
+.text{
+    padding-top: 10%;
+    padding-bottom: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+@media (max-width: 768px){
+    .text p{
+        position: relative;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .text{
+        padding-top: 15%;
+    }
+}
+
+@media (max-width: 992px){
+    .text p{
+        font-size: 9pt;
+    }
+}
+
+
+.row-2{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+@media (max-width: 768px){
+    .row-2 img{
+        padding-top: 5%;
+    }
+}
