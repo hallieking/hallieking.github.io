@@ -6,8 +6,6 @@
 body{
     font-family: 'Cabin', sans-serif;
     color: var(--color-secondary);
-    animation: opacityTransition 1s;
-    animation-timing-function: ease-in;
 }
 
 a{
