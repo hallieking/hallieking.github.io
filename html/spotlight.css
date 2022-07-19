@@ -159,3 +159,22 @@ video{
     margin-top: 10%;
     margin-bottom: 5%;
 }
+
+/** Footer **/
+
+.next-project{
+    text-align: right;
+    padding-bottom: 5%;
+}
+
+.next-project a{
+    font-size: 16pt;
+    transition-property: all;
+    transition-delay: 100ms;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+}
+
+.next-project a:hover{
+    color: var(--color-primary);
+}
