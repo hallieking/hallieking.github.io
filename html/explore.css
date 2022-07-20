@@ -164,4 +164,67 @@ img{
     color: var(--color-primary);
 }
 
+/** carousel **/
+/**.carousel{
+    position: fixed;
+    z-index: 2;
+    background-color: #CEDBFF;
+
+    height: 100vh;
+    align-items: center;
+    display: none;
+}
+
+.exit-btn{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.exit-btn p{
+    font-size: 20pt;
+    transition-property: all;
+    transition-delay: 100ms;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+}
+
+.exit-btn p:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.carousel img{
+    width: 100%;
+    height: auto;
+}
+
+.carousel-btn{
+    text-align: center;
+    padding-top: 15%;
+}
+
+.carousel-btn p{
+    font-size: 16pt;
+    transition-property: all;
+    transition-delay: 100ms;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    
+}
+
+.carousel-btn p:hover{ 
+    color: #ffffff;
+}
+
+@media (max-width: 768px){
+    .carousel-btn p{
+        font-size: 12pt;
+    }
+}
+**/
+
 

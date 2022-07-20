@@ -6,6 +6,8 @@
 body{
     font-family: 'Cabin', sans-serif;
     color: var(--color-secondary);
+    animation: opacityTransition 1s;
+    animation-timing-function: ease-in;
 }
 
 a{
@@ -28,6 +30,21 @@ a{
     }
     to{
         opacity: 1;
+    }
+}
+
+@keyframes sizeTransition{
+    from{
+        border-radius: 0px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    to{
+        border-radius: 30px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -104,8 +121,6 @@ button{
     position:relative;
     margin-top: 5%;
     color:white;
-    animation: opacityTransition 1s;
-    animation-timing-function: ease-in;
 }
 
 .project-text{
@@ -120,7 +135,9 @@ button{
 }
 
 .project-square:hover{
-   color:transparent;
+    color:transparent;
+    animation: sizeTransition 1s;
+    animation-fill-mode: forwards;
 }
 
 #gouache-square{
