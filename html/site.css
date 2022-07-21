@@ -99,3 +99,66 @@ button{
     animation-timing-function: ease-in;
 }
 
+/** page content **/
+
+img{
+    width: 100%;
+}
+
+.text{
+    padding-top: 13%;
+    padding-bottom: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+@media (max-width: 768px){
+    .text p{
+        position: relative;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .text{
+        padding-top: 15%;
+    }
+}
+
+@media (max-width: 992px){
+    .text p{
+        font-size: 9pt;
+    }
+}
+
+.row-2{
+    margin-top: 10%;
+}
+
+.row-3{
+    margin-top: 10%;
+}
+
+.row-4{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+/** Footer **/
+
+.previous-project{
+    padding-bottom: 5%;
+}
+
+.previous-project a{
+    left:0;
+    font-size: 16pt;
+    transition-property: all;
+    transition-delay: 100ms;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+}
+
+.previous-project a:hover{
+    color: var(--color-primary);
+}
+
