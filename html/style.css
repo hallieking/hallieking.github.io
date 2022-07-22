@@ -346,4 +346,15 @@ button{
     opacity: 1;
 }
 
+.appear2{
+    position: relative;
+    transform: scaleY(0);
+    transition: all 1s ease;
+    transform-origin: 0 100%;
+}
+
+.appear2.active{
+    transform: scaleY(1);
+}
+
 
