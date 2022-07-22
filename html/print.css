@@ -70,6 +70,15 @@ a{
     width:30px;
     height: auto;
     padding-top: 10%;
+    transition: all 1s ease;
+    transform-origin: top;
+}
+
+.logo img:hover{
+    width:30px;
+    height: auto;
+    padding-top: 10%;
+    transform: scaleY(.5);
 }
 
 button{
