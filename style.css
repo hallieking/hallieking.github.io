@@ -248,6 +248,7 @@ button{
 }
 
 .digital{
+    background-image: url("images/btn_paintla_hover.png");
     background-image: url("images/btn_paintla.png");
     background-size: cover;
     height:0;
@@ -267,6 +268,7 @@ button{
 }
 
 .sketchbook{
+    background-image: url("images/btn_risograph_hover.png");
     background-image: url("images/btn_risograph.png");
     background-size: cover;
     height:0;

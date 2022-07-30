@@ -152,6 +152,7 @@ button{
 
 
 #explore-square{
+    background-image: url(images/btn_explore_hover.png);
     background-image: url(images/btn_explore.png);
     background-size: cover;
 }
@@ -165,6 +166,7 @@ button{
 }
 
 #imillaskate-square{
+    background-image: url(images/btn_imilla_hover.png);
     background-image: url(images/btn_imilla.png);
     background-size: cover;
 }
@@ -178,6 +180,7 @@ button{
 }
 
 #jdt-square{
+    background-image: url(images/btn_jdt_hover.png);
     background-image: url(images/btn_jdt.png);
     background-size: cover;
 }
@@ -191,6 +194,7 @@ button{
 }
 
 #game-square{
+    background-image: url(images/btn_game_hover.png);
     background-image: url(images/btn_game.png);
     background-size: cover;
 }
@@ -204,6 +208,7 @@ button{
 }
 
 #major-square{
+    background-image: url(images/btn_major_hover.png);
     background-image: url(images/btn_major.png);
     background-size: cover;
 }
@@ -217,6 +222,7 @@ button{
 }
 
 #laundry-square{
+    background-image: url(images/btn_laundry_hover.png);
     background-image: url(images/btn_laundry.png);
     background-size: cover;
 }
@@ -230,6 +236,7 @@ button{
 }
 
 #baseball-square{
+    background-image: url(images/btn_baseball_hover.png);
     background-image: url(images/btn_baseball.png);
     background-size: cover;
 }
@@ -243,6 +250,7 @@ button{
 }
 
 #quin-square{
+    background-image: url(images/btn_quin_hover.png);
     background-image: url(images/btn_quin.png);
     background-size: cover;
 }
@@ -256,6 +264,7 @@ button{
 }
 
 #tango-square{
+    background-image: url(images/btn_tango_hover.png);
     background-image: url(images/btn_tango.png);
     background-size: cover;
 }

@@ -150,6 +150,7 @@ button{
 }
 
 #gouache-square{
+    background-image: url(images/btn_gouache_hover.png);
     background-image: url(images/btn_gouache.png);
     background-size: cover;
 }
@@ -163,6 +164,7 @@ button{
 }
 
 #cyanotype-square{
+    background-image: url(images/btn_cyanotype_hover.png);
     background-image: url(images/btn_cyanotype.png);
     background-size: cover;
 }
@@ -176,6 +178,7 @@ button{
 }
 
 #risograph-square{
+    background-image: url(images/btn_risograph_hover.png);
     background-image: url(images/btn_risograph.png);
     background-size: cover;
 }
