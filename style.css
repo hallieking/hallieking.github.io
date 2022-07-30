@@ -228,6 +228,7 @@ button{
 }
 
 .print{
+    background-image: url("images/btn_game_hover.png");
     background-image: url("images/btn_game.png");
     background-size: cover;
     height:0;
