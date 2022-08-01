@@ -10,6 +10,11 @@ body{
     animation-timing-function: ease-in;
 }
 
+body:after {
+    display: none;
+    content: url(images/btn_gouache_hover.png) url(images/btn_cyanotype_hover.png) url(images/btn_risograph_hover.png);
+}
+
 a{
     text-decoration: none;
     color: var(--color-secondary);

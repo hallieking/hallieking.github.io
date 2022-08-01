@@ -10,6 +10,11 @@ body{
     animation-timing-function: ease-in;
 }
 
+body:after {
+    display: none;
+    content: url(images/btn_explore_hover.png) url(images/btn_imilla_hover.png) url(images/btn_jdt_hover.png) url(images/btn_game_hover.png) url(images/btn_major_hover.png) url(images/btn_laundry_hover.png) url(images/btn_baseball.png) url(images/btn_quin.png) url(images/btn_tango_hover.png);
+   }
+
 a{
     text-decoration: none;
     color: var(--color-secondary);
