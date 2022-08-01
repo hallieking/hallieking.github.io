@@ -162,6 +162,13 @@ button{
     background-size: cover;
 }
 
+#explore-square:before {
+    content: url(images/btn_explore_hover.png);
+    width:0;
+    height:0;
+    visibility:hidden;
+}
+
 #explore-square:hover{
     background-image: url(images/btn_explore_hover.png);
     background-size: cover;
@@ -174,6 +181,13 @@ button{
     background-image: url(images/btn_imilla_hover.png);
     background-image: url(images/btn_imilla.png);
     background-size: cover;
+}
+
+#imillaskate-square:before {
+    content: url(images/btn_imilla_hover.png);
+    width:0;
+    height:0;
+    visibility:hidden;
 }
 
 #imillaskate-square:hover{
@@ -190,6 +204,13 @@ button{
     background-size: cover;
 }
 
+#jdt-square:before {
+    content: url(images/btn_jdt_hover.png);
+    width:0;
+    height:0;
+    visibility:hidden;
+}
+
 #jdt-square:hover{
     background-image: url(images/btn_jdt_hover.png);
     background-size: cover;
@@ -202,6 +223,13 @@ button{
     background-image: url(images/btn_game_hover.png);
     background-image: url(images/btn_game.png);
     background-size: cover;
+}
+
+#game-square:before {
+    content: url(images/btn_game_hover.png);
+    width:0;
+    height:0;
+    visibility:hidden;
 }
 
 #game-square:hover{
@@ -218,6 +246,13 @@ button{
     background-size: cover;
 }
 
+#major-square:before {
+    content: url(images/btn_major_hover.png);
+    width:0;
+    height:0;
+    visibility:hidden;
+}
+
 #major-square:hover{
     background-image: url(images/btn_major_hover.png);
     background-size: cover;
@@ -230,6 +265,13 @@ button{
     background-image: url(images/btn_laundry_hover.png);
     background-image: url(images/btn_laundry.png);
     background-size: cover;
+}
+
+#laundry-square:before {
+    content: url(images/btn_laundry_hover.png);
+    width:0;
+    height:0;
+    visibility:hidden;
 }
 
 #laundry-square:hover{
@@ -246,6 +288,13 @@ button{
     background-size: cover;
 }
 
+#baseball-square:before {
+    content: url(images/btn_baseball_hover.png);
+    width:0;
+    height:0;
+    visibility:hidden;
+}
+
 #baseball-square:hover{
     background-image: url(images/btn_baseball_hover.png);
     background-size: cover;
@@ -260,6 +309,13 @@ button{
     background-size: cover;
 }
 
+#quin-square:before {
+    content: url(images/btn_quin_hover.png);
+    width:0;
+    height:0;
+    visibility:hidden;
+}
+
 #quin-square:hover{
     background-image: url(images/btn_quin_hover.png);
     background-size: cover;
@@ -272,6 +328,13 @@ button{
     background-image: url(images/btn_tango_hover.png);
     background-image: url(images/btn_tango.png);
     background-size: cover;
+}
+
+#tango-square:before {
+    content: url(images/btn_tango_hover.png);
+    width:0;
+    height:0;
+    visibility:hidden;
 }
 
 #tango-square:hover{
