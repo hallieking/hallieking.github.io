@@ -10,11 +10,6 @@ body{
     animation-timing-function: ease-in;
 }
 
-body:after {
-    display: none;
-    content: url(images/btn_gouache_hover.png) url(images/btn_cyanotype_hover.png) url(images/btn_risograph_hover.png);
-}
-
 a{
     text-decoration: none;
     color: var(--color-secondary);
@@ -160,6 +155,13 @@ button{
     background-size: cover;
 }
 
+#gouache-square:before {
+    content: url(images/btn_gouache_hover.png);
+    width:0;
+    height:0;
+    visibility:hidden;
+}
+
 #gouache-square:hover{
     background-image: url(images/btn_gouache_hover.png);
     background-size: cover;
@@ -174,6 +176,13 @@ button{
     background-size: cover;
 }
 
+#cyanotype-square:before {
+    content: url(images/btn_cyanotype_hover.png);
+    width:0;
+    height:0;
+    visibility:hidden;
+}
+
 #cyanotype-square:hover{
     background-image: url(images/btn_cyanotype_hover.png);
     background-size: cover;
@@ -186,6 +195,13 @@ button{
     background-image: url(images/btn_risograph_hover.png);
     background-image: url(images/btn_risograph.png);
     background-size: cover;
+}
+
+#risograph-square:before {
+    content: url(images/btn_risograph_hover.png);
+    width:0;
+    height:0;
+    visibility:hidden;
 }
 
 #risograph-square:hover{
