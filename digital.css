@@ -159,11 +159,6 @@ button{
     background-size: cover;
 }
 
-#spotlight-square:before {
-    content: url(images/btn_spotlight_hover.png);
-    visibility:hidden;
-    display: none;
-}
 
 #spotlight-square:hover{
     background-image: url(images/btn_spotlight_hover.png);
@@ -179,11 +174,6 @@ button{
     background-size: cover;
 }
 
-#paintla-square:before {
-    content: url(images/btn_paintla_hover.png);
-    visibility:hidden;
-    display: none;
-}
 
 #paintla-square:hover{
     background-image: url(images/btn_paintla_hover.png);
@@ -199,11 +189,6 @@ button{
     background-size: cover;
 }
 
-#dpaintings-square:before {
-    content: url(images/btn_dpaintings_hover.png);
-    visibility:hidden;
-    display: none;
-}
 
 #dpaintings-square:hover{
     background-image: url(images/btn_dpaintings_hover.png);
@@ -219,11 +204,6 @@ button{
     background-size: cover;
 }
 
-#waves-square:before {
-    content: url(images/btn_waves_hover.png);
-    visibility:hidden;
-    display: none;
-}
 
 #waves-square:hover{
     background-image: url(images/btn_waves_hover.png);
@@ -239,11 +219,6 @@ button{
     background-size: cover;
 }
 
-#nocturnal-square:before {
-    content: url(images/btn_nocturnal_hover.png);
-    visibility:hidden;
-    display: none;
-}
 
 #nocturnal-square:hover{
     background-image: url(images/btn_nocturnal_hover.png);
@@ -259,11 +234,6 @@ button{
     background-size: cover;
 }
 
-#portfolio-square:before {
-    content: url(images/btn_portfolio_hover.png);
-    visibility:hidden;
-    display: none;
-}
 
 #portfolio-square:hover{
     background-image: url(images/btn_portfolio_hover.png);

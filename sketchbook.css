@@ -155,12 +155,6 @@ button{
     background-size: cover;
 }
 
-#gouache-square:before {
-    content: url(images/btn_gouache_hover.png);
-    width:0;
-    height:0;
-    visibility:hidden;
-}
 
 #gouache-square:hover{
     background-image: url(images/btn_gouache_hover.png);
@@ -176,12 +170,6 @@ button{
     background-size: cover;
 }
 
-#cyanotype-square:before {
-    content: url(images/btn_cyanotype_hover.png);
-    width:0;
-    height:0;
-    visibility:hidden;
-}
 
 #cyanotype-square:hover{
     background-image: url(images/btn_cyanotype_hover.png);
@@ -197,12 +185,6 @@ button{
     background-size: cover;
 }
 
-#risograph-square:before {
-    content: url(images/btn_risograph_hover.png);
-    width:0;
-    height:0;
-    visibility:hidden;
-}
 
 #risograph-square:hover{
     background-image: url(images/btn_risograph_hover.png);
