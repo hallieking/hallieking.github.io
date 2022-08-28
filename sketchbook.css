@@ -151,7 +151,7 @@ button{
 
 #gouache-square{
     background-image: url(images/btn_gouache_hover.png);
-    background-image: url(images/btn_gouache.png);
+    /* background-image: url(images/btn_gouache.png); */
     background-size: cover;
 }
 
@@ -165,14 +165,14 @@ button{
 }
 
 #cyanotype-square{
-    background-image: url(images/btn_cyanotype_hover.png);
-    background-image: url(images/btn_cyanotype.png);
+    background-image: url(images/cyan_img1.png);
+    /* background-image: url(images/btn_cyanotype.png); */
     background-size: cover;
 }
 
 
 #cyanotype-square:hover{
-    background-image: url(images/btn_cyanotype_hover.png);
+    background-image: url(images/cyan_img1.png);
     background-size: cover;
     transition-duration: 100ms;
     transition-delay: 100ms;
@@ -180,14 +180,14 @@ button{
 }
 
 #risograph-square{
-    background-image: url(images/btn_risograph_hover.png);
-    background-image: url(images/btn_risograph.png);
+    background-image: url(images/riso_img2.png);
+    /* background-image: url(images/btn_risograph.png); */
     background-size: cover;
 }
 
 
 #risograph-square:hover{
-    background-image: url(images/btn_risograph_hover.png);
+    background-image: url(images/riso_img2.png);
     background-size: cover;
     transition-duration: 100ms;
     transition-delay: 100ms;
