@@ -121,6 +121,18 @@ img{
     padding-right: 4%;
 }
 
+#azlink{
+    text-decoration: underline;
+    transition-property: all;
+    transition-delay: 100ms;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+}
+
+#azlink:hover{
+    color:#CEDBFF;
+}
+
 @media (max-width: 768px){
     .text p{
         position: relative;
