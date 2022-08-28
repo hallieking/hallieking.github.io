@@ -131,17 +131,41 @@ button{
     position:relative;
     margin-top: 5%;
     color:white;
+    text-shadow: #333333;
 }
 
 .project-text{
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Merriweather Sans', sans-serif; 
     font-size: 25pt;
     font-weight:800;
+    
+}
+
+.project-sub{
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Merriweather Sans', sans-serif; 
+    font-size: 12pt;
+    font-weight:600;
+}
+
+.project-sub2{
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Merriweather Sans', sans-serif; 
+    font-size: 12pt;
+    font-weight:600;
 }
 
 .project-square:hover{

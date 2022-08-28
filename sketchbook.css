@@ -143,6 +143,17 @@ button{
     font-weight:800;
 }
 
+.project-sub2{
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Merriweather Sans', sans-serif; 
+    font-size: 12pt;
+    font-weight:600;
+}
+
 .project-square:hover{
     color:transparent;
     animation: sizeTransition 1s;
