@@ -138,12 +138,17 @@ a:hover{
 
 .middle .text{
     padding: 0;
+    padding-top: 10%;
 }
 
 .middle p{
     color: white;
     padding-left: 10%;
     padding-top: 15%;
+}
+
+.middle .paragraph{
+    padding-top: 5px;
 }
 
 /* bottom section */
@@ -202,6 +207,18 @@ a:hover{
 
 .bottom .image{
     padding: 5%;
+}
+
+.col-md-12{
+    padding: 0;
+}
+
+.split img{
+    padding: 5%;
+}
+
+.split p{
+    padding: 10%;
 }
 
 /* footer */
@@ -277,6 +294,12 @@ a:hover{
         padding: 10%;
     }
 
+    .middle .paragraph{
+        padding:0;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
     .bottom{
         margin-top: 50px;
     }
@@ -289,6 +312,9 @@ a:hover{
         padding-left: 10%;
         padding-right: 10%;
     }
+
+    
+
 
     .footer{
         font-size: 12px;
