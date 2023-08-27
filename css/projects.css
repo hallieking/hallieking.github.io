@@ -132,9 +132,25 @@ a:hover{
     background-color: #F19487;
 }
 
+.black{
+    background-color: #000000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 250px;
+}
+
+.shapes-container{
+    padding-right: 0px;
+}
+
+#shapes{
+    padding: 0px;
+}
+
 .middle img{
     padding: 5%;
 }
+
 
 .middle .text{
     padding: 0;
@@ -288,6 +304,16 @@ a:hover{
         margin-top: 50px;
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    .black{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #shapes{
+        padding: 0px;
+        padding-top: 50px;
     }
 
     .middle p{
