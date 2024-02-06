@@ -209,6 +209,11 @@ a:hover{
     margin-left: auto;
 }
 
+#largeVid{
+    width: 75%;
+    padding: auto;
+}
+
 .bottom .video video{
     display: block;
     width: 50%;
