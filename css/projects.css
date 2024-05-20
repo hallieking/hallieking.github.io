@@ -281,6 +281,19 @@ a:hover{
     padding-right: 10%;
 }
 
+/* Just for Needle project */
+.demo{
+    padding: 5%;  
+}
+
+.demo p{
+    margin-top: 10%;
+}
+
+.screens{
+    padding: 5%;
+}
+
 /* footer */
 
 .footer{
@@ -304,6 +317,13 @@ a:hover{
 
 .footer-nav{
     font-weight: 600;
+}
+
+/* about page */
+
+.link{
+    font-weight: 600;
+    color:#7F90D0;
 }
 
 /* js */
