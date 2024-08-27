@@ -14,10 +14,17 @@ video{
     width: 100%;
 }
 
+.site{
+    color: black;
+    text-decoration: underline;
+}
+
 a{
     text-decoration: none;
     color: black;
+    font-weight: 700;
 }
+
 
 a:hover{
     color:#d9dce9;
@@ -117,6 +124,17 @@ a:hover{
 
 .top p{
     padding-top: 25px;
+}
+
+.credits-container{
+    padding-top: 30px;
+}
+
+.credits{
+    font-family: plantin,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12px;
 }
 
 /* middle section */
@@ -294,6 +312,12 @@ a:hover{
     padding: 5%;
 }
 
+/* Just for Group Chat Project */
+.mirror{
+    margin: 0%;
+    padding: 100px;
+}
+
 /* footer */
 
 .footer{
@@ -403,8 +427,6 @@ a:hover{
         padding-right: 10%;
     }
 
-    
-
 
     .footer{
         font-size: 12px;
@@ -420,6 +442,16 @@ a:hover{
     .footer-nav{
         text-align: right;
         
+    }
+
+    .mirrors img{
+        padding-top: 0;
+        display: none;
+        
+    }
+
+    .mirrors video{
+        padding: 8%;
     }
 
 }
