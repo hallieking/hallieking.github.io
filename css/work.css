@@ -30,9 +30,13 @@ a:hover{
 }
 
 .lastname{
-    font-family: plantin,sans-serif;
+    font-family: superior-title, serif;
     font-weight: 500;
     font-style: italic;
+}
+
+.icon{
+    width: 50px;
 }
 
 .nav{
@@ -54,18 +58,18 @@ a:hover{
     color: black;
 }
 
-.this-page a{
+/* .this-page a{
     color: #d9dce9;
-    font-family: plantin,sans-serif;
+    font-family: superior-title, serif;
     font-weight: 700;
     font-style: italic;
     transition-property: all;
     transition-timing-function: ease-in-out;
     transition-duration: 300ms;
-}
+} */
 
 .nav a:hover{
-    font-family: plantin,sans-serif;
+    font-family: superior-title, serif;
     font-weight: 700;
     font-style: italic;
     transition-property: all;
@@ -112,7 +116,7 @@ a:hover{
 .image-container .caption p{
     position: absolute;
     bottom:0;
-    font-family: plantin,sans-serif;
+    font-family: superior-title, serif;
     font-weight: 300;
     font-style: italic;
     padding-left: 20px;
@@ -155,6 +159,10 @@ a:hover{
 
     .nav{
         font-size: 12px;
+    }
+
+    .icon{
+        width: 40px;
     }
 
     .footer{
