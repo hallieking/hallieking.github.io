@@ -368,6 +368,23 @@ a:hover{
     padding-top: 5%;
 }
 
+/* Just for Walls project */
+
+.square{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.right-text{
+    padding-top: 3%;
+    padding-right: 5%;
+}
+
+.left-text{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
 /* footer */
 
 .footer{
@@ -492,6 +509,33 @@ a:hover{
         padding-right: 10%;
     }
 
+    .right-text{
+        padding-top: 5%;
+    }
+
+    .right-text p{
+        padding: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .right-text h1{
+        padding-bottom: 5%;
+    }
+
+    .left-text p{
+        padding: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .left-text{
+        padding-bottom: 5%;
+    }
+
+    .left-text h1{
+        padding-bottom: 5%;
+    }
 
     .footer{
         font-size: 12px;
