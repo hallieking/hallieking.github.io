@@ -127,7 +127,7 @@ a:hover{
 }
 
 .top p{
-    padding-top: 25px;
+    padding-top: 15px;
 }
 
 .credits-container{
@@ -158,6 +158,13 @@ a:hover{
 
 .black{
     background-color: #000000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 250px;
+}
+
+.night{
+    background-color: #233038;
     padding-top: 0px;
     padding-bottom: 0px;
     margin-top: 250px;
@@ -203,6 +210,7 @@ a:hover{
     padding: 0;
     margin: 0;
     margin-top: 150px;
+    margin-right: -20px;
 }
 
 .dark{
@@ -249,7 +257,7 @@ a:hover{
 }
 
 .bottom p {
-    padding-top: 25px;
+    padding-top: 15px;
 }
 
 .bottom .spread{
@@ -383,6 +391,12 @@ a:hover{
 .left-text{
     padding-top: 5%;
     padding-left: 5%;
+}
+
+/* Just for CFI project */
+
+.logo-blurb{
+    padding-top: 0%;
 }
 
 /* footer */
